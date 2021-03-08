@@ -1,0 +1,9 @@
+This should run as it is if the file structure is kept the same by running:
+
+$python main.py
+
+Thje file package-list.txt is the versions of packages installed in the environment in which I ran this. Running
+
+$ conda create --name <env> --file package-list.txt 
+
+should recreate the environment in conda. This uses Python 3.8.8.
