@@ -9,4 +9,5 @@ $ conda create --name <env> --file package-list.txt
 should recreate the environment in conda. This uses Python 3.8.8.
 
 
-Results of the various experiments should output to your terminal window. 
+Results of the various experiments should output to your terminal window and a comparison graph of the performances of different feature sets should pop up, 
+these don't save automatically (as I was generating several) so if you want to view these without it running, please manually save it. 
