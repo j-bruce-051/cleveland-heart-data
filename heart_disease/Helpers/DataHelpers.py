@@ -10,7 +10,7 @@ def one_hot_encode(df, categoric_col_name, new_col_names):
 
     a =pd.get_dummies(list(df[categoric_col_name]))
     a.columns = new_col_names
-    df = pd.concat([df, a], axis = 1) # could remove one of these, but having them all is clearer and little benefit to removing them
+    df = pd.concat([df, a], axis = 1) # could remove one of these columns, but having them all is clearer and little benefit to removing them
     df = df.drop([categoric_col_name], axis = 1)
     
     return df
