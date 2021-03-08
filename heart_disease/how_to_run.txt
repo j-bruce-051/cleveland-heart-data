@@ -1,4 +1,4 @@
-This should run from root as it is if the file structure is kept the same by running:
+This should run from inside the heart_disease dir by running:
 
 $python main.py
 
