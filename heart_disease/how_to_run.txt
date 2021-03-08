@@ -2,7 +2,7 @@ This should run from inside the heart_disease dir by running:
 
 $python main.py
 
-Thje file package-list.txt is the versions of packages installed in the environment in which I ran this. Running
+The file package-list.txt is the versions of packages installed in the environment in which I ran this. Running
 
 $ conda create --name <env> --file package-list.txt 
 
